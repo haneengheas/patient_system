@@ -53,7 +53,7 @@ class _week1screenState extends State<week1screen> {
                     ),
                     SizedBox(height: 10,),
                     Row(
-                      children: [
+                      children: const [
                         Text("blood analysis :",style: TextStyle(fontSize: 20,color: Colors.black)),
                         Text("20/10/2020",style: TextStyle(fontSize: 20,color: Colors.black45))
                       ],
